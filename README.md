@@ -1,6 +1,7 @@
 # CHIP-8 Emulator
 A simple CHIP-8 emulator written in C++.
 ## Installation
+Make sure you have the SDL libraries installed.
 ```Bash
 cd bin 
 cmake . 
