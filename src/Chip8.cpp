@@ -153,13 +153,10 @@ void Chip8::loadState(){
 
 void Chip8::Cycle()
 {
-	// Fetch
 	opcode = (memory[pc] << 8u) | memory[pc + 1];
 
-	// Increment the PC before we execute anything
 	pc += 2;
 
-	// Decode and Execute
 	DecodeAndExecute();
 }
 
