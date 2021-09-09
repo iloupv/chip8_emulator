@@ -4,7 +4,7 @@ A simple CHIP-8 emulator written in C++.
 Make sure you have the SDL libraries installed.
 ```Bash
 cd bin 
-cmake . 
+cmake .. 
 make 
 ```
 A file named chip8 should have been generated.
