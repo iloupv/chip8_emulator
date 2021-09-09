@@ -36,7 +36,8 @@ void Chip8::Initialize(std::string rom)
 	
 	// Initialize Index Register
 	index = 0x0000;
-	sindex = 0x0000;	
+	sindex = 0x0000;
+	
 	// Initialize Registers, Stack and Keypad
 	for(int i = 0; i<16; i++)
 	{
