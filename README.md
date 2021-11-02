@@ -17,4 +17,4 @@ To execute the binary file, type this:
 - Pressing F2 will enable the debugger.
 - Pressing F3 will save the current state of the emulator.
 - Pressing F4 will load the saved state of the emulator.
-- Pressing the spacebar will stop the current cycle. In this state, user can press the (+) key to execute the next CPU cicles step by step.
+- Pressing the spacebar will stop the current cycle. In this state, user can press the (+) key to execute the next CPU cycles step by step.
